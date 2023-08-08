@@ -7,9 +7,6 @@ description: > # description of the site (multiple lines allowed)
     백엔드 개발자로 공부하고 있습니다! 
     제가 공부하면서 알아낸 것들과 프로젝트에 관련된 사항을 기록하는 블로그입니다!
     
-    
-   
-  
   
 permalink: /:slug
 
