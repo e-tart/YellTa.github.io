@@ -1,0 +1,24 @@
+---
+layout: default
+text: Memo
+---
+
+<header>
+  {% include horizontal_list.html collection=site.data.home.postNavbar_entries %}
+  <div class="dashed"></div>
+
+   <h1>{{page.text}}</h1>
+</header>
+
+
+{% for post in site.posts %}
+   {% if post.categories contains page.text %}
+   <span class="home-date">
+          {{ post.date | date: site.theme_config.date_format }}»
+   </span>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    {% endif %}
+{% endfor %}
+
+
+

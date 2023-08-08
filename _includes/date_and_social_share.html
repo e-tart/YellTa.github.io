@@ -23,9 +23,11 @@
 </div>
 
 {% if site.theme_config.show_tags == true %}
-  <div class="">
     {% for tag in page.tags %}
-    <span class="tag">{{ tag }}</span>
+              {% for item in site.data.tags.tag_entries %}
+                      {% if item.title == tag %}
+      <span class="tag" data-tag="{{tag}}"  ><a href="{{ item.url }}" style="color: gray;"> {{ tag }} </a></span>
+                      {% endif %}
+              {% endfor %}
     {% endfor %}
-  </div>
 {% endif %}

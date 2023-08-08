@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<!--<a href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text }}</a>-->
+
+<header>
+  {% include horizontal_list.html collection=site.data.home.postNavbar_entries %}
+  <div class="dashed"></div>
+
+  <h1>My Tags! Click it!</h1>
+  
+  
+<ul class="horizontal-list">
+  {% for item in site.data.tags.tag_entries %}
+    <li>
+      <a href="{{ item.url }}">
+       <span ><strong style="color:#FBEEAC">{{ item.title }}</strong></span>
+        
+      </a>
+      &nbsp;&nbsp;
+    </li>
+  {% endfor %}
+</ul>
+
+</header>
+
+
+
+

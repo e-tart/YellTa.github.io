@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+//custom
+
 
 html { height: 100%; }
+
 
 body {
   font-family:  "Inter", -apple-system, "avenir next", avenir, roboto, noto, ubuntu, "helvetica neue", helvetica, sans-serif;
@@ -67,10 +70,12 @@ img {
   html, body {
       --bg: #FFF;
       --bg-secondary: #f3f4f6;
-      --headings: #1e293b;
+//      --headings: #1e293b;
+      --headings:#161E1F;
       --text: #374151;
       --text-secondary: #6b7280;
-      --links: #6366f1;
+//      --links: #6366f1;
+      --links:#00A7C6;
       --highlight: #FFECB2; // light yellow
       --code-text: #9D174D;
       --share-text: #999;
@@ -79,12 +84,17 @@ img {
 // -------------- THEME SWITCHER -------------- //
 @mixin dark-appearance {
   html, body  {
-      --headings: #74c0fc;
-      --links: #91A7FF;
+//      --headings: #74c0fc;
+      --headings: #FFE5AD;
+//      --links: #91A7FF;
+      --links: #FBEEAC;
       --highlight: #41C7C7;
-      --bg: #1f242A;
-      --bg-secondary: #323945;
-      --text: #adb5bd;
+//      --bg: #1f242A;161E1F
+       --bg: #1f242A;
+//      --bg-secondary: #323945;161E1F
+      --bg-secondary : #1f242A;
+//      --text: #adb5bd;
+      --text:#FDF0E0;
       --text-secondary: #9CA3AF;
       --code-text: #91A7FF;
       --share-text: #C4C4C4;

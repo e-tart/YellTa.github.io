@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<!--<a href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text }}</a>-->
+
+<header>
+  {% include horizontal_list.html collection=site.data.home.postNavbar_entries %}
+  <div class="dashed"></div>
+
+  <h1>Category!</h1>
+</header>
+
+
+<ul class="horizontal-list">
+  {% for item in site.data.categorydata.category_entries %}
+
+    <li class="card">
+      <a href="{{ item.url }}">
+        <span class="header">
+          {{ item.title }}
+
+          {% if item.highlight %}
+            <mark>{{ item.highlight }}</mark>
+          {% endif %}
+
+        </span>
+
+        <hr />
+
+        {% if item.desc != false %}
+        <p class="body">
+          {{ item.desc }}
+        </p>
+        {% endif %}
+      </a>
+    </li>
+
+  {% endfor %}
+</ul>
+
+

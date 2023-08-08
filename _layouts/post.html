@@ -2,7 +2,22 @@
 layout: default
 ---
 
-<a href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text }}</a>
+<!--<a href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text }}</a>-->
+
+<header>
+  {% include horizontal_list.html collection=site.data.home.postNavbar_entries %}
+  <div class="dashed"></div>
+</header>
+
+
 <h1 class="post-title">{{ page.title }}</h1>
+    <h5>
+        <span>category</span>
+    {% for category in page.categories %}
+        <a style="color: #00A7C6;" href="{{ site.url }}/category//{{ category }}.html" >{{ category }}</a>
+    {% endfor %}
+    </h5>
+
+
 {% include date_and_social_share.html %}
 {{ content }}
