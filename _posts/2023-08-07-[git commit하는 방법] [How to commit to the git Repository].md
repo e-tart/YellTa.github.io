@@ -75,6 +75,8 @@ Make your project directory as a local git directory through **git init** comman
 
 ### git add [file or folder or *]
     git add *
+
+
 위처럼 작성하면 폴더 안의 모든 내용을 **add** 하겠단 뜻이다.<br>
 If write the command above then It means to add every file and folder to git.
     
