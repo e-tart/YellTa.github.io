@@ -17,8 +17,7 @@ text: java
           {{ post.date | date: site.theme_config.date_format }}»
    </span>
     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </br>
     {% endif %}
+
 {% endfor %}
-
-
-

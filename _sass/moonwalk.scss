@@ -41,7 +41,7 @@ li { margin: 0.4em 0; }
 }
 
 table, th, td {
-  width: 100%;
+  // width: 100%;
   border: thin solid black;
   border-collapse: collapse;
   padding: 0.4em;
@@ -110,7 +110,7 @@ html[data-theme="light"] { @include light-appearance; }
 @media (prefers-color-scheme: light) {
   body[data-theme="auto"] { @include light-appearance; }
 }
-  
+
 // -------------------------------------------- //
 
 html, body {
