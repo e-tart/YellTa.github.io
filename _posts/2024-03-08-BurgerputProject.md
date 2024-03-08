@@ -1,0 +1,15 @@
+---
+layout: project_contents
+author: YellTa
+title: "Burgerput Project "
+date: 2024-03-08 
+project-time: 2023-05 ~
+permalink: :title
+#project: true
+categories: ["spring","study"]
+description: "매일매일 어거지로 입력해야하는 버거킹 매장의 기기와 식품의 온도!! 안적으면 무지막지한 일이 일어나 버리는데... 자동으로 입력해주면 얼마나... 얼마나 좋을까요?...
+그래서 만들었습니다!"
+forme: "프로젝트 파일은 한국어로 작성하자(그래야 다른 사람들이 편하게 봄) 내가 공부한건 영어로 작성해도 ㄱㅊ"
+---
+
+# Start the 

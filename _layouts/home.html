@@ -1,0 +1,109 @@
+---
+layout: default
+---
+
+{{ content }}
+{% assign contentwonl = content | strip_newlines %} {% unless contentwonl == ""  %} <br /> {% endunless %} <!-- add line break if there is any content -->
+
+{%- if site.posts.size > 0 -%}
+
+<article>
+  <div style=" display:flex;width: 800px">
+    <div style="text-align: left">
+      <img src="../assets/images/yellTa_creeper.svg.png" alt="main" width="200" height="200" style="margin: initial;">
+    </div>
+    <div style=" text-align: right; padding: 10px" >
+    <p></p>
+    </div>
+  </div>
+</article>
+
+<!--PROJECTS-->
+<span class="highlight">
+<h1>Language</h1>
+</span>
+<article>
+<!--  CHANGE THE NUMBER WANT TO SEE-->
+  {%- assign pro_cnt = 1 -%}
+  <ul>
+    {%- for post in site.posts -%}
+    {%- if post.project == true -%}
+      {% if forloop.index > pro_cnt %}
+        {% break %}
+      {% else %}
+        <li style="padding-bottom: 1em">
+          {%- assign date_format = "%Y-%m-%d" -%}
+          <div>
+            <span> [ {{ post.date | date: date_format }} ]</span>
+          </div>
+          <div>
+            <h2 style="margin: 0; padding-bottom: 0.8em">
+              <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </h2>
+          </div>
+          <div>
+            <article>
+              -> {{ post.description }}
+            </article>
+          </div>
+
+        </li>
+      {%- endif -%}
+    {% else %}
+      {%- assign pro_cnt = pro_cnt | plus: 1 -%}
+    {%- endif -%}
+    {%- endfor -%}
+  </ul>
+
+</article>
+
+<!--LANGFUAGE-->
+<span class="highlight">
+<h1 >Language</h1>
+</span>
+<article>
+  <div>
+    <p>KOREAN, ENG</p>
+  </div>
+</article>
+
+
+<!--SKILLS-->
+<span class="highlight">
+<h1>Skills...</h1>
+</span>
+<article>
+  <div>
+    <p>[java] [linux/ubuntu] [Spring boot] [Sping JPA] [git] [AWS] [MySQL] [HTML/CSS]</p>
+
+  </div>
+</article>
+
+<!--RECENT POSTS-->
+<span class="highlight">
+<h1> Recent Posts...</h1>
+</span>
+  <ul>
+    <!--  CHANGE THE NUMBER WANT TO SEE-->
+
+    {%- assign cnt = 4 -%}
+    {%- for post in site.posts -%}
+
+    {% if post.project != true %}
+      {% if forloop.index > cnt %}
+        {% break %}
+      {% else %}
+      <li>
+        {%- assign date_format = "%Y-%m-%d" -%}
+        [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      </li>
+      {% endif %}
+    {% else%}
+        {%- assign cnt = cnt | plus: 1 -%}
+    {% endif %}
+
+    {%- endfor -%}
+
+  </ul>
+
+{%- endif -%}

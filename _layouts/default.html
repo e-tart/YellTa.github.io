@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+  {%- include head.html -%}
+
+  <body>
+
+    <div class="container">
+      <div>
+        {% include toggle_theme_button.html %}
+      </div>
+      {%- include header.html -%}
+
+    <main>
+      {{ content }}
+    </main>
+    {%- include footer.html -%}
+
+    </div>
+  </body>
+</html>

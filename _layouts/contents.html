@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div>
+    <strong> categories > </strong>
+    {% if page.categories %}
+    {% for category in page.categories %}
+    {% if site.data.categorydata contains category %}
+    <span>{{ category }}</span>
+
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+
+    <br>
+    <strong>date : </strong> <span> {{ page.date | date: "%B %d, %Y" }}</span>
+</div>
+
+
+{{ content }}
