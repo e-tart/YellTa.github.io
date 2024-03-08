@@ -1,0 +1,53 @@
+---
+layout: default
+---
+<h1>Categories</h1>
+
+<ul class="button_wrapper">
+    {% for category in site.data.categorydata %}
+    <li>
+        <button>
+            <span class="category" data-category="{{category}}"> {{ category}}</span>
+        </button>
+        </a>
+    </li>
+    {% endfor %}
+</ul>
+
+
+<h1> Posts</h1>
+<hr>
+{% for post in site.posts %}
+{%- if post.project != true -%}
+<div
+        class="post-wrapper hidden"
+        {% if post.categories %}
+        {% for category in post.categories %}
+        data-{{category}}
+        {% endfor %}
+        {% endif %}
+>
+    <ul class="post-preview" data-category="{{ category }}">
+        <li>
+            <div style="display: inline">
+                {%- assign date_format = "%Y-%m-%d" -%}
+                <span> [ {{ post.date | date: date_format }} ]</span>
+            </div>
+
+            <div style="display: inline-block">
+                {% for category in post.categories %}
+            <span>
+                        <button>
+                            <span class="category" data-category="{{category}}"> {{ category }}</span>
+                        </button>
+            </span>
+                {% endfor %}
+            </div>
+
+        </li>
+        <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+
+    </ul>
+</div>
+{%- endif -%}
+{% endfor %}

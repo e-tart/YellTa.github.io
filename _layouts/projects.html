@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+{{ content }}
+
+
+{% assign contentwonl = content | strip_newlines %} {% unless contentwonl == ""  %}
+<br/> {% endunless %} <!-- add line break if there is any content -->
+
+{%- if site.posts.size > 0 -%}
+<ul>
+    {%- for post in site.posts -%}
+    {%- if post.project == true -%}
+    <li style="padding-bottom: 1em">
+        {%- assign date_format = "%Y-%m-%d" -%}
+        <div>
+            <span> [ {{ post.date | date: date_format }} ]</span>
+        </div>
+        <div>
+            <h2 style="margin: 0; padding-bottom: 0.8em">
+                <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </h2>
+        </div>
+        <div>
+        <article>
+          -> {{ post.description }}
+        </article>
+        </div>
+
+    </li>
+    {%- endif -%}
+    {%- endfor -%}
+</ul>
+{%- endif -%}
