@@ -24,7 +24,7 @@ Dependencies
 
 ## PopupController.java
 
-```bash
+```java
 @GetMapping("popupTest")
     public String popupTest(RedirectAttributes redirect) {
 

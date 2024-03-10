@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e498da34-9e1b-48db-9bfe-055fd5998159" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/_posts/2024-3-10-nohup.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2024-03-08-BurgerputProject.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2024-03-08-BurgerputProject.md.writing" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/categorydata.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/categorydata.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2024-01-31-Selenium Alert Accpet Logic.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2024-01-31-Selenium Alert Accpet Logic.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,20 +28,20 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "G:/0004Blog/YellTa.github.io",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bbubb/Desktop/Burgerput/burgerput-main/burgerput-back/BURGERPUT&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\0004Blog\jekyll-theme-console-master\_posts" />
@@ -104,7 +105,9 @@
       <workItem from="1709516593968" duration="1199000" />
       <workItem from="1709543261057" duration="1202000" />
       <workItem from="1709899305881" duration="12194000" />
-      <workItem from="1709916367486" duration="39000" />
+      <workItem from="1709916367486" duration="295000" />
+      <workItem from="1710036057731" duration="847000" />
+      <workItem from="1710086251612" duration="489000" />
     </task>
     <servers />
   </component>
