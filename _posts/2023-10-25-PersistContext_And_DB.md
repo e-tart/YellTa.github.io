@@ -154,7 +154,7 @@ Synchronize DB and Persist Context
 Right side of pic, clears Persist Context to synchronize DB.
 </span>
 
-![solve3](..\assets\images\postImg\231025DBConfict\solve3.png)<br>
+![solve3](..\assets\images\postImg\231025DBConfict\solve3.PNG)<br>
 <br>
 
 ![solve4](..\assets\images\postImg\231025DBConfict\solve4.png)<br>
