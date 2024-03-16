@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e498da34-9e1b-48db-9bfe-055fd5998159" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2023-10-25-PersistContext_And_DB.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2023-10-25-PersistContext_And_DB.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +13,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -109,6 +112,8 @@
       <workItem from="1710086251612" duration="1869000" />
       <workItem from="1710325793632" duration="3143000" />
       <workItem from="1710436125156" duration="337000" />
+      <workItem from="1710516311937" duration="48000" />
+      <workItem from="1710522981329" duration="31000" />
     </task>
     <servers />
   </component>
