@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e498da34-9e1b-48db-9bfe-055fd5998159" name="Changes" comment="">
+    <list default="true" id="e498da34-9e1b-48db-9bfe-055fd5998159" name="Changes" comment="Solve the img problem in persistContext file">
+      <change afterPath="$PROJECT_DIR$/_data/project.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2024-03-08-BurgerputProject.md.writing" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,10 +18,24 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="error/jpa" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;yellTa&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ed6b5e38-70ba-4808-867a-1eee8381f85a" />
+        <option name="url" value="https://github.com/yellTa/YellTa.github.io.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -35,12 +52,14 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/bbubb/Desktop/Burgerput/burgerput-main/burgerput-back/BURGERPUT&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -114,10 +133,26 @@
       <workItem from="1710436125156" duration="337000" />
       <workItem from="1710516311937" duration="48000" />
       <workItem from="1710522981329" duration="31000" />
+      <workItem from="1710575000374" duration="1680000" />
+      <workItem from="1710584192541" duration="1947000" />
+      <workItem from="1710586186417" duration="380000" />
     </task>
+    <task id="LOCAL-00001" summary="Solve the img problem in persistContext file">
+      <option name="closed" value="true" />
+      <created>1710575326320</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710575326320</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Solve the img problem in persistContext file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve the img problem in persistContext file" />
   </component>
 </project>

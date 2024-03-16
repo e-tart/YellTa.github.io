@@ -1,9 +1,22 @@
 ---
 layout: default
 ---
+<h1>Categories</h1>
 
-{{ content }}
+<ul class="button_wrapper">
+    {% for category in site.data.project %}
+    <li>
+        <button>
+            <span class="category" data-category="{{category}}"> {{ category}}</span>
+        </button>
+        </a>
+    </li>
+    {% endfor %}
+</ul>
 
+
+<h1> Posts</h1>
+<hr>
 
 {% assign contentwonl = content | strip_newlines %} {% unless contentwonl == ""  %}
 <br/> {% endunless %} <!-- add line break if there is any content -->
